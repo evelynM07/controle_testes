@@ -1,0 +1,187 @@
+{
+  "id": "4186aeae-3280-44b7-abfc-2fa24381e531",
+  "version": "2.0",
+  "name": "TESTE_PRIMECINE",
+  "url": "http://127.0.0.1:5501/Gest%C3%A3o%20de%20cinema/index.html",
+  "tests": [{
+    "id": "fcc17787-9ee8-42b1-a905-0dbba184b853",
+    "name": "CT01 Cadastrar Usuário",
+    "commands": [{
+      "id": "64d8d4b9-8e78-411e-848b-bc9771eb6a26",
+      "comment": "",
+      "command": "open",
+      "target": "http://127.0.0.1:5501/Gest%C3%A3o%20de%20cinema/index.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2975c4a-e4c5-4c55-ba02-cee61f3d7112",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x838",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42bf0632-57f8-44d4-a77e-5a46104d266a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=CADASTRE-SE",
+      "targets": [
+        ["linkText=CADASTRE-SE", "linkText"],
+        ["css=ul:nth-child(1) > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'CADASTRE-SE')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'cadastro.html')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'CADASTRE-SE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a412d6d2-2194-407e-85bf-07f5b2e60691",
+      "comment": "",
+      "command": "click",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5e89a2b-7817-4eb7-97f3-10493922efe4",
+      "comment": "",
+      "command": "type",
+      "target": "id=nome",
+      "targets": [
+        ["id=nome", "id"],
+        ["name=nome", "name"],
+        ["css=#nome", "css:finder"],
+        ["xpath=//input[@id='nome']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "evelyn"
+    }, {
+      "id": "6356f8f3-0c35-4c69-806c-2c1b2250c352",
+      "comment": "",
+      "command": "click",
+      "target": "id=telefone",
+      "targets": [
+        ["id=telefone", "id"],
+        ["name=tel", "name"],
+        ["css=#telefone", "css:finder"],
+        ["xpath=//input[@id='telefone']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "299a4f85-b1cf-43be-8de7-8bc405549e75",
+      "comment": "",
+      "command": "type",
+      "target": "id=telefone",
+      "targets": [
+        ["id=telefone", "id"],
+        ["name=tel", "name"],
+        ["css=#telefone", "css:finder"],
+        ["xpath=//input[@id='telefone']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "18991347075"
+    }, {
+      "id": "bb67c3fe-17ac-475e-8f93-1965d2e6f67a",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1990f93d-60be-4637-ab22-0a563ec86848",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "evelynmoraesmesquita@gmail.com"
+    }, {
+      "id": "ca85a44a-12f0-4395-a435-7839ba956ec8",
+      "comment": "",
+      "command": "click",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=senha", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9dd5c98-ddad-4306-9fd9-5bab1062dd7c",
+      "comment": "",
+      "command": "type",
+      "target": "id=senha",
+      "targets": [
+        ["id=senha", "id"],
+        ["name=senha", "name"],
+        ["css=#senha", "css:finder"],
+        ["xpath=//input[@id='senha']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Evelyn@442"
+    }, {
+      "id": "8a37ab1c-4e1d-4314-aa56-ef219fd5db14",
+      "comment": "",
+      "command": "click",
+      "target": "css=.botao",
+      "targets": [
+        ["css=.botao", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='form_cadastro']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Cadastrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fa56f8ff-da45-4f35-8991-a8f805cd5eae",
+      "comment": "",
+      "command": "waitForText",
+      "target": "id=swal2-title",
+      "targets": [
+        ["id=swal2-title", "id"],
+        ["css=#swal2-title", "css:finder"],
+        ["xpath=//h2[@id='swal2-title']", "xpath:attributes"],
+        ["xpath=//div[2]/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Deu Certo!')]", "xpath:innerText"]
+      ],
+      "value": "Deu Certo!"
+    }]
+  }],
+  "suites": [{
+    "id": "821084e1-9499-4e4f-9ede-28765e0085e0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://127.0.0.1:5501/Gest%C3%A3o%20de%20cinema/index.html"],
+  "plugins": []
+}
